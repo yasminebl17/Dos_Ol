@@ -30,11 +30,11 @@ st.markdown(
 )
 
 # 🔐 Titre de l'application
-st.title("🔐 Détection parallèle des attaques en temps réel")
+st.title("🔐 Détection parallèle des attaques DOS en temps réel")
 st.markdown("---")
 
 # 📤 Upload de fichier CSV
-uploaded_file = st.file_uploader("📂 Choisir un fichier CSV (ex: KDDTest-21.csv)", type="csv")
+uploaded_file = st.file_uploader("📂 Choisir un fichier CSV (ex: Dos.csv)", type="csv")
 
 if uploaded_file:
     with st.spinner("Chargement et préparation des données..."):
