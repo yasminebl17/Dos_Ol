@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🔐 Détection séquentielle des attaques en temps réel")
+st.title("🔐 Détection séquentielle des attaques DOS en temps réel")
 st.markdown("---")
 
 uploaded_file = st.file_uploader("📂 Choisir un fichier CSV (ex: DOS.csv)", type="csv")
