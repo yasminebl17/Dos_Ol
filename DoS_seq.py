@@ -31,7 +31,7 @@ st.markdown(
 st.title("🔐 Détection séquentielle des attaques en temps réel")
 st.markdown("---")
 
-uploaded_file = st.file_uploader("📂 Choisir un fichier CSV (ex: KDDTest-21.csv)", type="csv")
+uploaded_file = st.file_uploader("📂 Choisir un fichier CSV (ex: DOS.csv)", type="csv")
 
 if uploaded_file:
     with st.spinner("Chargement et préparation des données..."):
